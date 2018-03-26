@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla One");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.col-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background-image: url("../images/01. header.png");
+  height: 100%;
+  max-height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.jumbotron .container-fluid h1,
+.jumbotron .container-fluid p {
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Comfortaa";
+}
+
+.jumbotron .container-fluid h1 {
+  margin-top: 150px;
+}
+
+.jumbotron .container-fluid .btn-success,
+.jumbotron .container-fluid .btn-success:hover,
+.jumbotron .container-fluid .btn-success:active,
+.jumbotron .container-fluid .btn-success:visited {
+  margin-top: 20px;
+  background-color: #16a085;
+  border-color: #16a085;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.jumbotron .container-fluid .navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.jumbotron .container-fluid .navbar .navbar-nav {
+  list-style-type: none;
+}
+
+.jumbotron .container-fluid .navbar .navbar-nav .nav-item {
+  padding: 0 50px;
+}
+
+.jumbotron .container-fluid .navbar .navbar-nav .nav-item a {
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Fjalla One";
+  font-size: 20px;
+  line-height: 100px;
+}
+
+.jumbotron .container-fluid .media .row {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.jumbotron .container-fluid .media .row .icon {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+.phoneInHand {
+  background-color: #f5f6f7;
+}
+
+.phoneInHand .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.phoneInHand .container .left-side {
+  margin-top: 50px;
+}
+
+.phoneInHand .container .left-side .btn-success,
+.phoneInHand .container .left-side .btn-success:hover,
+.phoneInHand .container .left-side .btn-success:active,
+.phoneInHand .container .left-side .btn-success:visited {
+  margin-top: 20px;
+  background-color: #16a085;
+  border-color: #16a085;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+.phoneInHand .container .left-side .shape {
+  shape-outside: polygon(300px 0px, 300px 500px, 100px 500px, 100px 320px);
+  width: 300px;
+  height: 500px;
+  float: right;
+}
+
+.phoneInHand .container h2,
+.phoneInHand .container p {
+  color: #000000;
+  text-transform: capitalize;
+  font-family: "Comfortaa";
+}
+
+.phoneInHand .container p {
+  margin-top: 50px;
+}
+
+.phoneInHand .container  {
+  display: flex;
+  align-items: flex-end;
+}
+
+.greenPhone .container .row {
+  margin-top: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.greenPhone .container .row .right-side h2,
+.greenPhone .container .row .right-side p {
+  color: #000000;
+  text-transform: capitalize;
+  font-family: "Comfortaa";
+}
+
+.greenPhone .container .row .right-side p {
+  margin-top: 50px;
+}
+
+.greenPhone .container .row .right-side .btn-success,
+.greenPhone .container .row .right-side .btn-success:hover,
+.greenPhone .container .row .right-side .btn-success:active,
+.greenPhone .container .row .right-side .btn-success:visited {
+  margin-top: 20px;
+  background-color: #16a085;
+  border-color: #16a085;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.greenPhone .container .row .right-side .counter {
+  margin-bottom: 100px;
+}
+
+.greenPhone .container .row .right-side .pager {
+  float: left;
+  margin-top: 0 !important;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 3px;
+}
+
+.greenPhone .container .row .right-side .pager .chevrons a {
+  padding: 0 3px;
+}
+
+.ourCommunity {
+  background-color: #f5f6f7;
+  padding: 75px 0;
+}
+
+.ourCommunity .container .row .chevrons {
+  margin-top: 50px;
+  float: right;
+}
+
+.ourCommunity .container .row .col-md-8 .carousel-inner .active .left {
+  left: -50%;
+}
+
+.ourCommunity .container .row .col-md-8 .carousel-inner .next {
+  left: 50%;
+}
+
+.ourCommunity .container .row .col-md-8 .carousel-inner .prev {
+  left: -50%;
+}
+
+.ourCommunity .container .row .col-md-8 .carousel-control .left,
+.ourCommunity .container .row .col-md-8 .carousel-control .right {
+  background-image: none;
+}
+
+.subscription .jumbotron {
+  background-image: url("../images/05. background.png");
+  height: 100%;
+  max-height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.subscription .jumbotron .form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 300px 0 450px 0;
+}
+
+.subscription .jumbotron .form h1 {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: "Comfortaa";
+  margin-bottom: 20px;
+}
+
+.subscription .jumbotron .form .row .subscriptionField {
+  float: left;
+  height: 60px;
+  width: 350px;
+  font-size: 48px;
+  font-family: "Comfortaa";
+  font-weight: 200;
+  color: #252626;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.subscription .jumbotron .form .row .subscriptionButton {
+  height: 60px;
+  width: 100px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #16a085;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.subscription .jumbotron .form .row .subscriptionButton .fas {
+  color: #ffffff;
+}
+
+.downloadIt {
+  background-color: #f5f6f7;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.downloadIt .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadIt .container .row {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.downloadIt .container .row h1,
+.downloadIt .container .row p {
+  color: #000000;
+  text-transform: uppercase;
+  font-family: "Comfortaa";
+}
+
+.downloadIt .container .row .buttons {
+  display: flex;
+  align-items: center;
+}
+
+.downloadIt .container .row .buttons .downloadSoft {
+  width: 300px;
+  height: 50px;
+  margin: 75px 20px;
+  background: linear-gradient(to right, #1abc9c 85%, #16a085 85%);
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-family: "Comfortaa";
+
+}
+
+.downloadIt .container .row .buttons .downloadSoft .text {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+footer .content {
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+footer .row p {
+  padding: 0px 10px;
+  color: #000000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+footer .row p a {
+  color: #000000;
+  text-transform: uppercase;
+}
+
+footer .row span {
+  color: #16a085;
+  font-weight: bolder;
+}
+
+footer .section {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1200px) {
+  .phoneInHand .container .shape {
+    display: none;
+  }
+  .phoneInHand .container {
+    position: relative;
+  }
+  .phoneInHand .container .phone {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: .2;
+    height: 80%;
+  }
+  
+  .ourCommunity .container .row  {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .subscription .jumbotron .form h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .subscription .jumbotron .form {
+    margin: 150px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .phoneInHand .container .phone {
+    display: none;
+  }
+  .greenPhone .container .row .left-side {
+    display: none;
+  }
+  .subscription .jumbotron .form .row .subscriptionField {
+  height: 30px;
+  width: 175px;
+  font-size: 24px;
+  }
+  .subscription .jumbotron .form .row .subscriptionButton {
+  height: 30px;
+  width: 50px;
+  font-size: 8px;
+  }
+  .subscription .jumbotron .form {
+    margin: 50px 0;
+  }
+  .downloadIt .container .row .buttons {
+    display:; flex;
+    flex-direction: column;
+  }
+  .downloadIt .container .row .buttons .downloadSoft {
+    background: #1abc9c;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .downloadIt .container .row .buttons .downloadSoft .text {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  .subscription .jumbotron .form h1 {
+    font-size: 24px;
+  }
+}
+
